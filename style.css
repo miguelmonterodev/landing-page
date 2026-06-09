@@ -109,3 +109,23 @@ h2 {
     margin-top: 10px;
     margin-bottom: 60px;
 }
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    padding: 50px;
+}
+
+.quote p {
+    width: 800px;
+    margin: auto;
+}
+
+#author {
+    font-weight: 700;
+    color: black;
+    font-size: 24px;
+    text-align: end;
+}
