@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 .flex {
@@ -71,4 +72,40 @@ button {
     border: none;
     font-weight: bold;
     color: #f9faf8;
+}
+
+.info-container {
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    padding: 15px;
+}
+
+.illustration {
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+}
+
+.cube {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+
+}
+
+.cube p {
+    margin-top: 10px;
+    margin-bottom: 60px;
 }
